@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" style="background:#F2F4F3">
+  <!-- Left White/Neutral Column -->
+  <rect x="0" y="0" width="600" height="1000" fill="#F4F5F4" />
+  
+  <!-- Headings -->
+  <text x="50" y="80" font-family="'Arial Black', sans-serif" font-size="44" font-weight="bold" fill="#111111">Pest Control</text>
+  <text x="50" y="140" font-family="'Arial Black', sans-serif" font-size="44" font-weight="bold" fill="#111111">Services</text>
+  <text x="50" y="195" font-family="'Arial', sans-serif" font-size="28" font-weight="600" fill="#2D6A4F">Control de plagas</text>
+
+  <!-- Service List -->
+  <g transform="translate(50, 260)" font-family="'Arial', sans-serif" font-size="28" font-weight="bold" fill="#111111">
+    <circle cx="10" cy="-8" r="5" fill="#111" />
+    <text x="30" y="0">Regular pest control</text>
+
+    <circle cx="10" cy="52" r="5" fill="#111" />
+    <text x="30" y="60">Bed bugs extermination</text>
+
+    <circle cx="10" cy="112" r="5" fill="#111" />
+    <text x="30" y="120">Termites extermination</text>
+
+    <circle cx="10" cy="172" r="5" fill="#111" />
+    <text x="30" y="180">Yard pest control</text>
+
+    <circle cx="10" cy="232" r="5" fill="#111" />
+    <text x="30" y="240">Mosquitoes control</text>
+
+    <circle cx="10" cy="292" r="5" fill="#111" />
+    <text x="30" y="300">Rodents control</text>
+
+    <circle cx="10" cy="352" r="5" fill="#111" />
+    <text x="30" y="360">Animal control</text>
+    <text x="30" y="405" font-size="24" font-weight="normal" fill="#222">Snakes - Opossums - Raccoons</text>
+  </g>
+
+  <!-- Book Now Button -->
+  <g transform="translate(50, 750)">
+    <rect x="0" y="0" width="220" height="58" rx="29" fill="#000000" stroke="#00FF4C" stroke-width="2" />
+    <text x="110" y="38" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="24" fill="#00FF4C">Book now</text>
+  </g>
+
+  <!-- John Rincon & Phone -->
+  <text x="50" y="865" font-family="'Arial Black', sans-serif" font-size="34" font-weight="bold" fill="#111111">John Rincon</text>
+  <text x="50" y="920" font-family="'Arial Black', sans-serif" font-size="32" font-weight="bold" fill="#111111">+1 (713) 298-4210</text>
+
+  <!-- Right Black Column with Photos & Logo -->
+  <rect x="600" y="0" width="400" height="1000" fill="#050505" />
+  
+  <!-- Mini Logo top right -->
+  <g transform="translate(620, 20) scale(0.45)">
+    <path d="M 60,30 Q 30,120 10,240 Q 40,290 80,330 Z" fill="#00FF4C" />
+    <path d="M 110,60 Q 70,160 50,320 Q 90,360 140,400 Z" fill="#00FF4C" />
+    <text x="170" y="160" font-family="'Arial Black', sans-serif" font-size="70" font-weight="bold" fill="#00FF4C">VENEZ</text>
+    <text x="180" y="210" font-family="'Times New Roman', serif" font-size="30" font-weight="bold" fill="#FFF" letter-spacing="4">PEST CONTROL</text>
+  </g>
+
+  <!-- Field Photo 1: Outdoor spraying -->
+  <g transform="translate(600, 240)">
+    <rect x="0" y="0" width="400" height="360" fill="#1C382A" />
+    <!-- House Brick wall & lawn -->
+    <rect x="0" y="0" width="400" height="260" fill="#8D5B4C" opacity="0.6" />
+    <rect x="0" y="260" width="400" height="100" fill="#387038" />
+    <!-- Technician silhouette with sprayer -->
+    <circle cx="280" cy="110" r="28" fill="#FFFFFF" />
+    <rect x="250" y="140" width="60" height="110" rx="10" fill="#FFFFFF" />
+    <rect x="260" y="250" width="22" height="90" fill="#B3A286" />
+    <rect x="290" y="250" width="22" height="90" fill="#B3A286" />
+    <line x1="260" y1="180" x2="160" y2="280" stroke="#00FF4C" stroke-width="6" />
+    <circle cx="150" cy="290" r="15" fill="#00FF4C" opacity="0.4" />
+    <text x="20" y="340" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#FFF">Exterior Perimeter Treatment</text>
+  </g>
+
+  <!-- Field Photo 2: Indoor baseboard spraying -->
+  <g transform="translate(600, 620)">
+    <rect x="0" y="0" width="400" height="380" fill="#20232A" />
+    <!-- Tile floor pattern -->
+    <rect x="0" y="240" width="400" height="140" fill="#303540" />
+    <line x1="0" y1="240" x2="400" y2="240" stroke="#FFF" stroke-width="4" />
+    <!-- Technician kneeling -->
+    <circle cx="200" cy="120" r="26" fill="#3B82F6" />
+    <rect x="180" y="150" width="70" height="90" rx="10" fill="#1E3A8A" />
+    <rect x="170" y="240" width="90" height="40" rx="10" fill="#1E3A8A" />
+    <line x1="200" y1="180" x2="330" y2="230" stroke="#00FF4C" stroke-width="5" />
+    <text x="20" y="350" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#FFF">Targeted Indoor Baseboard Barrier</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" style="background:#000000">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="1200" fill="#000000" />
+  
+  <!-- Logo Header -->
+  <g transform="translate(180, 50) scale(0.7)">
+    <path d="M 60,30 Q 30,120 10,240 Q 40,290 80,330 Q 45,260 40,190 Q 75,100 60,30 Z" fill="#00FF4C" />
+    <path d="M 110,60 Q 70,160 50,320 Q 90,360 140,400 Q 90,330 85,240 Q 120,150 110,60 Z" fill="#00FF4C" />
+    <polygon points="180,240 280,240 250,340 210,400 180,310" fill="#00FF4C" />
+    <g transform="translate(300, 160)">
+      <text x="0" y="0" font-family="'Arial Black', sans-serif" font-size="70" font-weight="bold" fill="#00FF4C">VENEZ</text>
+      <text x="20" y="60" font-family="'Times New Roman', serif" font-size="34" font-weight="bold" fill="#FFFFFF" letter-spacing="6">PEST CONTROL</text>
+    </g>
+  </g>
+
+  <!-- Big $120 Price -->
+  <text x="400" y="550" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="220" font-weight="900" fill="#00FF4C" filter="url(#neonGlow)">$120</text>
+  
+  <!-- Service Callout -->
+  <text x="400" y="730" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="52" font-weight="bold" fill="#FFFFFF" letter-spacing="2">INDOOR/OUTDOOR</text>
+  <text x="400" y="810" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="52" font-weight="bold" fill="#FFFFFF" letter-spacing="2">PEST CONTROL</text>
+  <text x="400" y="930" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="88" font-weight="900" fill="#FFFFFF" letter-spacing="6">SERVICE</text>
+  
+  <!-- Website URL footer -->
+  <text x="400" y="1120" text-anchor="middle" font-family="'Arial', sans-serif" font-size="34" font-weight="bold" fill="#00FF4C" letter-spacing="1">www.venezpestcontrol.com</text>
+</svg>

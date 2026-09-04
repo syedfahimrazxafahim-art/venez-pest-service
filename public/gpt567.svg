@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" style="background:#081C15">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05150E" />
+      <stop offset="60%" stop-color="#081C15" />
+      <stop offset="100%" stop-color="#1B4332" />
+    </linearGradient>
+    <filter id="bannerGlow">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGrad)" />
+
+  <!-- Top Left Brand Badge -->
+  <g transform="translate(60, 40)">
+    <polygon points="40,10 80,10 95,50 60,95 25,50" fill="none" stroke="#40916C" stroke-width="4" />
+    <path d="M 45,45 L 60,65 L 75,35" stroke="#52B788" stroke-width="4" fill="none" />
+    <text x="110" y="45" font-family="'Arial Black', sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">Venez</text>
+    <text x="110" y="80" font-family="'Arial Black', sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">Pest Control</text>
+    <text x="112" y="105" font-family="'Arial', sans-serif" font-size="14" font-weight="bold" fill="#52B788" letter-spacing="2">PROTECTING HOMES • PROTECTING FAMILIES</text>
+  </g>
+
+  <!-- Top Right Badges -->
+  <g transform="translate(900, 40)">
+    <text x="0" y="30" font-family="'Arial Black', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">SAFE. EFFECTIVE.</text>
+    <text x="0" y="60" font-family="'Arial Black', sans-serif" font-size="20" font-weight="bold" fill="#52B788">ECO FRIENDLY.</text>
+    <circle cx="210" cy="35" r="30" fill="#1B4332" stroke="#40916C" stroke-width="2" />
+    <path d="M 200,45 Q 210,15 225,25 Q 220,50 200,45 Z" fill="#52B788" />
+  </g>
+
+  <!-- Main Hero Headline -->
+  <g transform="translate(60, 200)">
+    <text x="0" y="50" font-family="'Arial Black', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="1">PROTECTING</text>
+    <text x="0" y="125" font-family="'Arial Black', sans-serif" font-size="64" font-weight="900" fill="#52B788" letter-spacing="1">WHAT MATTERS</text>
+    <text x="0" y="175" font-family="'Arial', sans-serif" font-size="22" fill="#E2E8F0" max-width="500">Reliable, safe and effective pest control solutions for your <tspan fill="#52B788" font-weight="bold">home</tspan> and <tspan fill="#52B788" font-weight="bold">business</tspan>.</text>
+  </g>
+
+  <!-- 4 Pest Circles in the middle -->
+  <g transform="translate(620, 160)">
+    <!-- Circle 1 Cockroach -->
+    <g transform="translate(0, 0)">
+      <circle cx="45" cy="45" r="45" fill="#081C15" stroke="#52B788" stroke-width="4" />
+      <circle cx="45" cy="45" r="38" fill="#1B4332" />
+      <ellipse cx="45" cy="45" rx="14" ry="20" fill="#99582A" />
+      <line x1="18" y1="18" x2="72" y2="72" stroke="#EF4444" stroke-width="5" />
+    </g>
+    <!-- Circle 2 Rodent -->
+    <g transform="translate(0, 105)">
+      <circle cx="45" cy="45" r="45" fill="#081C15" stroke="#52B788" stroke-width="4" />
+      <circle cx="45" cy="45" r="38" fill="#1B4332" />
+      <ellipse cx="45" cy="45" rx="18" ry="14" fill="#4B5563" />
+      <line x1="18" y1="18" x2="72" y2="72" stroke="#EF4444" stroke-width="5" />
+    </g>
+    <!-- Circle 3 Ant -->
+    <g transform="translate(0, 210)">
+      <circle cx="45" cy="45" r="45" fill="#081C15" stroke="#52B788" stroke-width="4" />
+      <circle cx="45" cy="45" r="38" fill="#1B4332" />
+      <circle cx="45" cy="35" r="8" fill="#1F2937" />
+      <circle cx="45" cy="52" r="10" fill="#1F2937" />
+      <line x1="18" y1="18" x2="72" y2="72" stroke="#EF4444" stroke-width="5" />
+    </g>
+    <!-- Circle 4 Termite -->
+    <g transform="translate(0, 315)">
+      <circle cx="45" cy="45" r="45" fill="#081C15" stroke="#52B788" stroke-width="4" />
+      <circle cx="45" cy="45" r="38" fill="#1B4332" />
+      <ellipse cx="45" cy="45" rx="10" ry="18" fill="#D97706" />
+      <line x1="18" y1="18" x2="72" y2="72" stroke="#EF4444" stroke-width="5" />
+    </g>
+  </g>
+
+  <!-- Technician with gear on right -->
+  <g transform="translate(760, 120)">
+    <rect x="0" y="0" width="380" height="480" rx="20" fill="#1B4332" opacity="0.3" />
+    <!-- Technician illustration with backpack sprayer and safety mask -->
+    <circle cx="190" cy="110" r="44" fill="#F8FAFC" stroke="#52B788" stroke-width="3" />
+    <!-- Hat with Venez Logo -->
+    <path d="M 140,90 Q 190,60 240,90 Z" fill="#FFFFFF" />
+    <text x="190" y="85" text-anchor="middle" font-family="'Arial', sans-serif" font-size="10" font-weight="bold" fill="#15803D">VENEZ</text>
+    <!-- Respirator Mask -->
+    <rect x="170" y="115" width="40" height="26" rx="8" fill="#52B788" />
+    <!-- White Uniform Jacket -->
+    <path d="M 120,154 L 260,154 L 270,360 L 110,360 Z" fill="#FFFFFF" />
+    <text x="190" y="210" text-anchor="middle" font-family="'Arial', sans-serif" font-size="14" font-weight="bold" fill="#15803D">VENEZ PEST CONTROL</text>
+    <!-- Green Gloves & Sprayer Wand -->
+    <rect x="130" y="360" width="120" height="90" fill="#1B4332" />
+    <line x1="100" y1="280" x2="20" y2="440" stroke="#52B788" stroke-width="7" />
+    <circle cx="15" cy="445" r="16" fill="#52B788" opacity="0.5" />
+  </g>
+
+  <!-- Bottom Action Bar -->
+  <g transform="translate(60, 600)">
+    <rect x="0" y="0" width="1080" height="150" rx="16" fill="#05130E" stroke="#2D6A4F" stroke-width="2" />
+    
+    <!-- Houston Location -->
+    <g transform="translate(30, 40)">
+      <circle cx="15" cy="15" r="15" fill="#40916C" />
+      <text x="40" y="16" font-family="'Arial', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Houston, Texas</text>
+      <text x="40" y="44" font-family="'Arial Black', sans-serif" font-size="24" font-weight="bold" fill="#52B788">713-298-4210</text>
+    </g>
+
+    <!-- Social Handle -->
+    <g transform="translate(340, 42)">
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#E1306C" />
+      <text x="45" y="15" font-family="'Arial', sans-serif" font-size="14" fill="#94A3B8">instagram.com/</text>
+      <text x="45" y="35" font-family="'Arial', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">venez_control_plagas/</text>
+    </g>
+
+    <!-- CTA Button -->
+    <g transform="translate(710, 30)">
+      <rect x="0" y="0" width="340" height="68" rx="34" fill="#52B788" />
+      <text x="170" y="42" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="17" font-weight="bold" fill="#081C15">GET YOUR FREE INSPECTION TODAY!</text>
+    </g>
+  </g>
+</svg>

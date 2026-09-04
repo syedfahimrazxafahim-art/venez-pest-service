@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" style="background:#000000">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF4C" />
+      <stop offset="50%" stop-color="#10E836" />
+      <stop offset="100%" stop-color="#00C830" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Stylized Arachnid Emblem -->
+  <g transform="translate(140, 70)" filter="url(#glow)">
+    <!-- Main Left Claws / Legs -->
+    <path d="M 60,30 Q 30,120 10,240 Q 40,290 80,330 Q 45,260 40,190 Q 75,100 60,30 Z" fill="url(#neonGreen)" />
+    <path d="M 110,60 Q 70,160 50,320 Q 90,360 140,400 Q 90,330 85,240 Q 120,150 110,60 Z" fill="url(#neonGreen)" />
+    <path d="M 170,130 Q 130,220 110,380 Q 150,420 210,450 Q 150,380 140,280 Q 175,200 170,130 Z" fill="url(#neonGreen)" />
+    <!-- Center Thorax / Triangle -->
+    <polygon points="180,240 280,240 250,340 210,400 180,310" fill="url(#neonGreen)" />
+    <polygon points="210,255 260,255 235,320" fill="#000" />
+  </g>
+
+  <!-- Typography VENEZ -->
+  <g transform="translate(420, 180)">
+    <!-- V -->
+    <path d="M 20,40 L 70,40 L 120,190 L 170,40 L 220,40 L 140,230 L 100,230 Z" fill="url(#neonGreen)" filter="url(#glow)" />
+    <!-- E -->
+    <path d="M 235,50 L 330,50 L 330,90 L 285,90 L 285,120 L 325,120 L 325,160 L 285,160 L 285,190 L 335,190 L 335,230 L 235,230 Z" fill="url(#neonGreen)" filter="url(#glow)" />
+    <!-- N -->
+    <path d="M 350,50 L 395,50 L 460,165 L 460,50 L 505,50 L 505,230 L 460,230 L 395,115 L 395,230 L 350,230 Z" fill="url(#neonGreen)" filter="url(#glow)" />
+    <!-- E -->
+    <path d="M 520,50 L 615,50 L 615,90 L 570,90 L 570,120 L 610,120 L 610,160 L 570,160 L 570,190 L 620,190 L 620,230 L 520,230 Z" fill="url(#neonGreen)" filter="url(#glow)" />
+    <!-- Z -->
+    <path d="M 635,50 L 740,50 L 740,90 L 685,185 L 745,185 L 745,230 L 635,230 L 635,190 L 695,95 L 635,95 Z" fill="url(#neonGreen)" filter="url(#glow)" />
+    <!-- Sharp spikes on letters -->
+    <polygon points="415,225 435,320 428,225" fill="url(#neonGreen)" />
+  </g>
+
+  <!-- PEST CONTROL Subtitle with Spider in O -->
+  <g transform="translate(425, 470)">
+    <text x="0" y="0" font-family="'Times New Roman', serif" font-size="52" font-weight="bold" fill="#FFFFFF" letter-spacing="18">PEST</text>
+    <text x="240" y="0" font-family="'Times New Roman', serif" font-size="52" font-weight="bold" fill="#FFFFFF" letter-spacing="18">C</text>
+    <!-- Spider Web O -->
+    <g transform="translate(308, -20)">
+      <circle cx="20" cy="0" r="24" stroke="#FFFFFF" stroke-width="3" fill="none" />
+      <line x1="-4" y1="0" x2="44" y2="0" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="20" y1="-24" x2="20" y2="24" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="3" y1="-17" x2="37" y2="17" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="3" y1="17" x2="37" y2="-17" stroke="#FFFFFF" stroke-width="2" />
+      <!-- Insect in center -->
+      <ellipse cx="20" cy="0" rx="6" ry="10" fill="#FFFFFF" />
+      <line x1="12" y1="-5" x2="28" y2="-5" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="10" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="12" y1="5" x2="28" y2="5" stroke="#FFFFFF" stroke-width="2" />
+    </g>
+    <text x="360" y="0" font-family="'Times New Roman', serif" font-size="52" font-weight="bold" fill="#FFFFFF" letter-spacing="18">NTROL</text>
+  </g>
+</svg>

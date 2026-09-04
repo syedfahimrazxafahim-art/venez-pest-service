@@ -1,0 +1,6 @@
+{
+  "name": "Venez Pest Control",
+  "description": "Premier pest control services in Houston, TX. Protecting homes & businesses with safe, eco-friendly pest, termite, rodent, and wildlife solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
